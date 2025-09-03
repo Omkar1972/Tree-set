@@ -1,3 +1,4 @@
+import java.util.NavigableSet;
 import java.util.TreeSet;
 
 public class T4 {
@@ -13,13 +14,11 @@ public class T4 {
 		
 		System.out.println("Original tree set: "+ts);
 		
-		System.out.println("Elements in Reverse Order: ");
-		for(int i=ts.size()-1;i>=0;i--)
-		{
-			System.out.println();
+		NavigableSet<String> RN= ts.descendingSet();
 		
-		
-		}
+		System.out.println();
+		System.out.println("Elements in Reverse Order: "+RN);
+
  
 
 	}
