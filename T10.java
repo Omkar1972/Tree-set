@@ -18,6 +18,21 @@ public class T10 {
 		
 		System.out.println(ts);
 		
+		int Ele=86;
+		int ele=29;
+		
+		 Integer result =ts.floor(Ele);
+		 Integer Result =ts.floor(ele);
+		
+		 if (result != null) {
+			 
+	            System.out.println("Element less than or equal to " + Ele + " is: " + result);
+	            System.out.println("Element less than or equal to " + ele + " is: " + Result);
+	        }
+		     else
+	        {
+	            System.out.println("No element less than or equal to " + Ele + " found.");
+	        }
 		
 	}
 
