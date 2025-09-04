@@ -18,6 +18,16 @@ public class T11 {
 		
 		System.out.println("Original tree set: "+ts);
 		
+		Integer Element = ts.pollLast();
+
+        if (Element != null) {
+            System.out.println("Removes the last element: " + Element);
+        } else {
+            System.out.println("TreeSet is empty.");
+        }
+
+        System.out.println("Tree set after removing last element: " + ts);
+		
 	
 	}
 
